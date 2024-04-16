@@ -1,0 +1,15 @@
+<launch>
+  <!-- 启动节点 -->
+
+
+ <node name="main_node" pkg="ros_mutual" type="main_node" output="screen" ></node>
+ <node name="test_arv_node" pkg="ros_mutual" type="test_arv_node" output="screen" ></node>
+ 
+ <!--添加ROS服务器全局参数-->
+ <param name = "bywire_state_topic" type = "string" value = "/bywire_vehicle_state" />
+  <param name = "basic_info_topic" type = "string" value = "/basic_info" />
+  <param name = "slam_topic" type = "string" value = "/global_pose" />
+  <param name = "pnc_system_Info" type = "string" value = "/pnc_system_Info" />
+  <param name = "basic_info_hz" type = "int" value = "10" />
+
+</launch>

@@ -1,0 +1,61 @@
+rosbag/
+bash/
+devel/
+build/
+
+
+record/*
+!record/
+records/*
+!records/
+record_log/*
+!record_log/
+build-RemoteOrdering-Desktop-Debug/
+
+
+# vscode stuff
+.vscode/
+.cache
+.catkin_workspace
+
+
+*.zip
+*.rar
+*.out
+
+# deep learning model
+*.engine
+
+# map file
+map_file/
+
+
+drivers/
+build-plusgov1-Desktop-Debug/
+build-plusgov2-Desktop-Debug/
+build-RemoteDriver-Desktop-Debug/
+build-RemoteOrdering-unknown-Debug/
+
+bin/
+doc/
+msg_gen/
+srv_gen/
+msg/*Action.msg
+msg/*ActionFeedback.msg
+msg/*ActionGoal.msg
+msg/*ActionResult.msg
+msg/*Feedback.msg
+msg/*Goal.msg
+msg/*Result.msg
+msg/_*.py
+build_isolated/
+devel_isolated/
+
+
+# qcreator stuff
+CMakeLists.txt.user
+
+# Catkin custom files
+CATKIN_IGNORE
+
+
